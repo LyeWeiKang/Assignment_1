@@ -1,0 +1,154 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+nav{
+  flex-direction:row;
+  width:100%;
+  height:75px;
+  background-color:black;
+  line-height:75px;
+  padding:0px 100px;
+  position:fixed;
+  z-index:1;
+}
+nav ul {
+  float:left;
+}
+
+nav ul li {
+  display:inline-block;
+  list-style:none; 
+}
+
+nav ul li a {
+  color: white;
+  font-size:18px;
+  text-align: center;
+  padding: 0px 32px;
+  text-decoration: none;
+  
+}
+nav ul li a:hover {
+  background-color:grey;
+}
+nav ul li.active{
+  color:grey;
+}
+
+.Biography{
+  display:flex;
+  flex-direction:row;
+  padding:100px;
+  background-color:#131313;
+}
+
+
+.BiographyDescription{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  position:center;
+  font-size:20px;
+  padding: 5%;
+  flex-basis: 100%;
+}
+.Biography header{
+  margin-bottom:50px;
+  font-size:50px;
+}
+.Biography img{
+  max-width:100%;
+  height:60%;
+}
+
+.Biography p{
+  color:white;
+  width:100%;
+
+}
+
+.LatestRelease{
+  display:flex;
+  flex-direction:column;
+  padding:100px;
+  background-color:black;
+  color:white;
+}
+.albumphotos{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+#LatestRelease{
+  margin-bottom:100px;
+  padding:auto;
+  font-size: 40px;
+}
+
+.albumphotos li{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  margin-right:100px;
+  margin-bottom:200px;
+  margin-right:200px;
+  font-size: 25px;
+  text-align:center;
+
+}
+
+.footer{
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  color:white;
+  background-color:#131313;
+  
+}
+.socialmedias{
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.socialmedias a{
+  margin:15px;
+}
+
+.Policies{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.Policies a{
+  margin-right:20px;
+  margin-bottom:30px;
+  color:white;
+}
+.Policies a:link {
+  text-decoration: none;
+
+}
+
+.Policies a:visited {
+  text-decoration: none;
+}
+
+.Policies a:hover {
+  color:red;
+}
+
+.Policies a:active {
+  text-decoration: none;
+}
+
