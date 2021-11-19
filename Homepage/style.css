@@ -60,8 +60,10 @@ nav ul li.active{
   font-size:20px;
   padding: 5%;
   flex-basis: 100%;
+  font-family: 'Roboto', sans-serif;
 }
-.Biography header{
+.Biography h1{
+  font-family: 'Charm', cursive;
   margin-bottom:50px;
   font-size:50px;
 }
@@ -73,27 +75,39 @@ nav ul li.active{
 .Biography p{
   color:white;
   width:100%;
+  margin-bottom:15px;
 
 }
 
 .LatestRelease{
-  display:flex;
-  flex-direction:column;
-  padding:100px;
   background-color:black;
+  width:100%;
+}
+#Latestrelease{
+  margin-top:50px;
   color:white;
+  margin-bottom:100px;
+  padding:auto;
+  font-size: 50px;
+  text-align:center;
+  text-decoration-line: underline;
+  font-family: 'Playball', cursive;
 }
 .albumphotos{
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  justify-content: center;
+  justify-content:center;
+  font-family: 'Racing Sans One', cursive;;
 }
-#LatestRelease{
-  margin-bottom:100px;
-  padding:auto;
-  font-size: 40px;
+
+.albumphotos img{
+  height:300px;
+  width:300px;
+  border: 10px solid white;
+  padding: 20px;
 }
+
 
 .albumphotos li{
   display:flex;

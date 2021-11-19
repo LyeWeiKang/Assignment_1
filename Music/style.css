@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+  body{
+    display:flex;
+    flex-direction:column;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color:black;
+  }
+  nav{
+    flex-direction:row;
+    width:100%;
+    height:75px;
+    background-color:black;
+    line-height:75px;
+    padding:0px 100px;
+    position:fixed;
+    z-index:1;
+  }
+  nav ul {
+    float:left;
+  }
+  
+  nav ul li {
+    display:inline-block;
+    list-style:none; 
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size:18px;
+    text-align: center;
+    padding: 0px 32px;
+    text-decoration: none;
+    
+  }
+  nav ul li a:hover {
+    background-color:grey;
+  }
+  nav ul li.active{
+    color:grey;
+  }
+
+  .firstvideo{
+      display:flex;
+      flex-direction:row;
+      color:white;
+      margin-top:150px;
+      justify-content:center;
+      margin-bottom:80px;
+      margin-left:100px;
+      font-size:40px;
+      padding-bottom:30px;
+      border-bottom: 10px solid white;
+  }
+  .firstvideo p{
+      margin:auto;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .othervideos{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      width:90%;
+      justify-content: center;
+      margin:auto;
+      margin-right:100px;
+      margin-bottom:100px;
+  }
+  .othervideos iframe{
+      margin-bottom:20px;
+      margin-right:20px;
+  }
+  .footer{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    color:white;
+    background-color:#131313;
+    
+  }
+  .socialmedias{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .socialmedias a{
+    margin:15px;
+  }
+  
+  .Policies{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .Policies a{
+    margin-right:20px;
+    margin-bottom:30px;
+    color:white;
+  }
+  .Policies a:link {
+    text-decoration: none;
+  
+  }
+  
+  .Policies a:visited {
+    text-decoration: none;
+  }
+  
+  .Policies a:hover {
+    color:red;
+  }
+  
+  .Policies a:active {
+    text-decoration: none;
+  }
+  
+  

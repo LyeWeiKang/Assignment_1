@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+body{
+    display:flex;
+    flex-direction:column;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("Images/background3.jpg");
+}
+nav{
+    flex-direction:row;
+    width:100%;
+    height:75px;
+    background-color:black;
+    line-height:75px;
+    padding:0px 100px;
+    position:fixed;
+    z-index:1;
+}
+nav ul {
+float:left;
+}
+  
+nav ul li {
+    display:inline-block;
+    list-style:none; 
+}
+  
+nav ul li a {
+    color: white;
+    font-size:18px;
+    text-align: center;
+    padding: 0px 32px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover {
+    background-color:grey;
+}
+nav ul li.active{
+    color:red;
+}
+.products{
+    display:flex;
+    flex-direction:column;
+}
+.products h1{
+    color:white;
+    font-size: 30px;
+    text-decoration-style: solid;
+    margin-top:150px;
+    margin-bottom:100px;
+    text-align:center;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.products h2{
+    color:white;
+    font-size: 30px;
+    margin-bottom:100px;
+    text-decoration-style: solid;
+    text-align:center;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+
+.Merch{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-left:110px;
+    color:white;
+}
+.Merch li{
+    display:flex;
+    flex-direction:column;
+    margin-right:150px;
+    margin-bottom:100px;
+    text-align:center;
+    font-family: 'Signika', sans-serif;
+}
+.Albums{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-left:110px;
+    color:white;
+}
+.Albums li{
+    display:flex;
+    flex-direction:column;
+    margin-right:150px;
+    margin-bottom:100px;
+    text-align:center;
+    font-family: 'Signika', sans-serif;
+}
+.footer{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    color:white;
+    background-color:#131313;
+    
+  }
+  .socialmedias{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .socialmedias a{
+    margin:15px;
+  }
+  
+  .Policies{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .Policies a{
+    margin-right:20px;
+    margin-bottom:30px;
+    color:white;
+  }
+  .Policies a:link {
+    text-decoration: none;
+  
+  }
+  
+  .Policies a:visited {
+    text-decoration: none;
+  }
+  
+  .Policies a:hover {
+    color:red;
+  }
+  
+  .Policies a:active {
+    text-decoration: none;
+  }
