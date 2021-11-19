@@ -14,7 +14,7 @@ nav{
   flex-direction:row;
   width:100%;
   height:75px;
-  background-color:black;
+  background-color:white;
   line-height:75px;
   padding:0px 100px;
   position:fixed;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   font-size:18px;
   text-align: center;
   padding: 0px 32px;
@@ -43,12 +43,29 @@ nav ul li a:hover {
 nav ul li.active{
   color:grey;
 }
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+img { 
+  width: 100%;
+  height: auto;
+}
+
 
 .Biography{
   display:flex;
   flex-direction:row;
   padding:100px;
   background-color:#131313;
+  border-top:5px solid white;
 }
 
 
@@ -80,8 +97,9 @@ nav ul li.active{
 }
 
 .LatestRelease{
-  background-color:black;
+  background-color:#131313;
   width:100%;
+  border-top:5px solid white;
 }
 #Latestrelease{
   margin-top:50px;
