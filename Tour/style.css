@@ -9,13 +9,13 @@ body{
     flex-direction:column;
     background-size: cover;
     background-repeat:no-repeat;
-    background-color:black;
+    background-color:#131313;
 }
 nav{
     flex-direction:row;
     width:100%;
     height:75px;
-    background-color:white;
+    background-color:black;
     line-height:75px;
     padding:0px 100px;
     position:fixed;
@@ -31,7 +31,7 @@ nav ul li {
 }
   
 nav ul li a {
-    color: black;
+    color: white;
     font-size:18px;
     text-align: center;
     padding: 0px 32px;
@@ -48,44 +48,41 @@ nav ul li.active{
       display:flex;
       flex-direction:column;
       color:white;
-      padding: 110px;
+      margin-top:110px;
       text-transform:uppercase;
 }
 .tour h1{
     font-size:30px;
     margin:auto;
+    margin-bottom:50px;
     padding:40px;
     font-weight:bold;
-    text-decoration:underline;
-    font-family: "courier-prime",monospace;
+    text-decoration: none;
+    font-family: 'Playball', cursive;
 }
+
 .information{
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-evenly; 
 }
 .dates{
     display:flex;
     flex-direction:column;
-    justify-content: center;
-    margin-bottom:10px;
 }
 .dates span{
-    margin: 40px;
     text-align:center;
+    margin-bottom:50px;
 }
+
 .location{
     display:flex;
     flex-direction:column;
-    justify-content: center;
-    margin-bottom:100px;
 }
 .location span{
-    margin: 50px;
+    margin-bottom:69px;
 }
-.flex span{
-    margin:50px;
-}
+
 .country{
     display:flex;
     flex-direction:column;
@@ -93,79 +90,24 @@ nav ul li.active{
     margin-bottom:80px;
 }
 .country span{
-    margin:40px;
     text-align:center;
+    margin-bottom:50px;
 }
+
 .tickets{
     display:flex;
     flex-direction:column;
-    justify-content: center;
 }
-.tickets span{
-    margin-bottom:80px;
+.tickets a{
+    margin-bottom:49px;
     background-color: red;
     width:90px;
     border:10px red;
     color:white;
     text-align:center;
     padding:10px;
-}
-.pasttours h1{
-    font-size:30px;
-    font-weight:bold;
-    text-decoration:underline;
-    color:white;
-    text-transform: uppercase;
-    text-align:center;
-    margin-bottom:80px;
-    font-family: "courier-prime",monospace;
-}
-.concert{
-    display:flex;
-    flex-direction:row; 
-    justify-content:center;
-}
-.concert img{
-    height:300px;
-    width:300px;
-    border: 10px solid white;
-    padding: 20px;
-    margin: auto;
-}
-.moreinformation{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    color:white;
-}
-.moreinformation span{
-    margin:auto;
-    padding:auto;
+    text-decoration: none;
     
-}
-.pasttours iframe{
-    width:85%;
-    height:600px;
-    margin-left:110px;
-    margin-top:200px;
-    margin-bottom:200px;
-}
-.photosofconcert{
-    display:flex;
-    flex-direction:row;
-
-}
-.photosofconcert img{
-    width:20%;
-    height:300px;
-}
-.pasttours h2{
-    text-transform:uppercase;
-    text-align:center ;
-    text-decoration:underline ;
-    color:white;
-    margin-bottom:20px;
-    font-family: "courier-prime",monospace;
 }
 
 .footer{
@@ -173,7 +115,7 @@ nav ul li.active{
     width:100%;
     flex-direction:column;
     color:white;
-    background-color:#131313;
+    background-color:black;
     
   }
   .socialmedias{
