@@ -21,6 +21,7 @@ nav{
   position:fixed;
   z-index:1;
 }
+
 nav ul {
   float:left;
 }
@@ -47,17 +48,19 @@ nav ul li.active{
 .container {
   position: relative;
 }
-
-.center {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
+.dropbtn{
+  visibility:hidden;
 }
+
 img { 
   width: 100%;
   height: auto;
+}
+@media screen and (max-width: 480px){
+  img{
+    width:100%;
+    height:auto;
+  }
 }
 
 
@@ -68,15 +71,12 @@ img {
   border-top:5px solid white;
 }
 
-
 .BiographyDescription{
   display:flex;
   flex-direction:column;
   color:white;
-  position:center;
   font-size:20px;
   padding: 5%;
-  flex-basis: 100%;
   font-family: 'Roboto', sans-serif;
 }
 .Biography h1{
@@ -95,26 +95,44 @@ img {
   margin-bottom:15px;
 
 }
+@media screen and (max-width: 480px) {
+  .Biography{
+    display:flex;
+    flex-direction:column;
+    padding:0px;
+  }
+  .BiographyDescription{
+    width:60%;
+    font-size:15px;
+    padding:0%;
+    margin:auto;
+  }
+  .Biography h1{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:30px;
+  }
+}
 
 .LatestRelease{
   border-top:5px solid white;
+  margin:auto;
+  width:80%;
 }
 #heading_LR{
   color:white;
   margin-top:100px;
   margin-bottom:50px;
-  margin-left:230px;
-  padding:auto;
   font-size: 50px;
   text-decoration:none;
   font-family: 'Playball', cursive;
+  text-align:center;
 }
 .albumcontainer{
   display:flex;
   flex-direction:row;
-  justify-content:center;
+  justify-content:space-evenly;
   flex-wrap:wrap;
-  width:100%;
   margin:auto;
 }
 .albumcontainer img{
@@ -125,12 +143,10 @@ img {
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    margin-right:30px;
     margin-bottom:50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-
 .albumitems a{
     width:180px;
     border: 2px solid white;
@@ -141,20 +157,29 @@ img {
     margin-top:20px;
     text-decoration: none;
     color:white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 480px) {
+  #heading_LR{
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+    font-size:40px;
+  }
 }
 .Letterbox{
+  width:73%;
   display:flex;
   flex-direction:row;
-  border:10px black;
   background-color: black;
-  width:1030px;
   margin:auto;
-  margin-left:230px;
+  margin:auto;
   margin-top:30px;
   margin-bottom:70px;
   padding:auto;
   color:white;
+  font-family: 'Montserrat', sans-serif;
 }
 .Letterbox p{
   margin:auto;
@@ -165,13 +190,40 @@ img {
   margin-top:30px;
   margin-bottom:30px;
 }
+
+@media screen and (max-width: 480px) {
+  .Letterbox{
+    margin:auto;
+    width:80%;
+    margin-top:20px;
+    margin-bottom:40px;
+  }
+  .Letterbox form{
+    margin:auto;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:auto;
+  }
+  .Letterbox input{
+    width:100%;
+  }
+  .Letterbox p{
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+}
 .Latestvideo{
   display:flex;
   flex-direction:column;
+  margin:auto;
 }
 .Latestvideo iframe{
-  margin-left:230px;
+  margin:auto;
 }
+
 .Latestvideo h2{
   text-align:center;
   color:white;
@@ -187,7 +239,26 @@ img {
   text-align:center;
   margin-top:50px;
   margin-bottom:50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .Latestvideo iframe{
+    width:80%;
+    margin:auto;
+    height:10%
+  }
+  .Latestvideo h2{
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .Latestvideo a{
+    margin:auto;
+    margin-top:5%;
+  }
+}
+.Latestmerchandise{
+  margin:auto;
+  width:85%;
 }
 .Latestmerchandise h2{
   margin-top:50px;
@@ -203,14 +274,13 @@ img {
   color:white;
   font-size:25px;
   text-align:start;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   
 }
 .Merchandisecontainer{
   display:flex;
   flex-direction:row;
-  justify-content:center;
-  flex-wrap:wrap;
+  justify-content:space-evenly;
   width:100%;
   margin:auto;
 }
@@ -221,22 +291,20 @@ img {
 .merchandiseitems{
     display:flex;
     flex-direction:column;
-    margin-right:30px;
     margin-bottom:50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
 .merchandiseitems a{
     width:fit-content;
     border: 2px solid white;
-    margin-right:50px;;
     padding: 10px;
     margin-top:25px;
     text-decoration: none;
     color:white;
     background-color:black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 #visitthestore{
   text-decoration: underline;
@@ -244,7 +312,44 @@ img {
   font-size:20px;
   text-align:center;
   margin-bottom:80px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.merchandiseitems h3{
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .Latestmerchandise{
+    width:100%;
+  }
+  .Latestmerchandise h2{
+    font-size:30px;
+    margin-top:20%;
+    margin-bottom:10%;
+  }
+  .Latestmerchandise h3{
+    margin:auto;
+    color:white;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:5%;
+    
+  }
+  .Merchandisecontainer{
+    flex-direction:column;
+    width:100%;
+    margin:auto;
+  }
+  .Latestmerchandise img{
+    width:200px;
+    height:200px;
+    margin:auto;
+  }
+  .merchandiseitems a{
+    margin:auto;
+    margin-top:5%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 }
 
 
@@ -255,6 +360,7 @@ img {
   flex-direction:column;
   color:white;
   background-color:black;
+  font-family: 'Montserrat', sans-serif;
   
 }
 .socialmedias{

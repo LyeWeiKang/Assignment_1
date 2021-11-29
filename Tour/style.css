@@ -61,44 +61,33 @@ nav ul li.active{
     font-family: 'Playball', cursive;
 }
 
+.informationcontainer{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin:auto;
+}
 .information{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly; 
+    margin:auto;
+    text-align:center;
 }
+
 .dates{
-    display:flex;
-    flex-direction:column;
+    width:20%;
+    font-family: 'Open Sans', sans-serif;
 }
-.dates span{
-    text-align:center;
-    margin-bottom:50px;
-}
-
 .location{
-    display:flex;
-    flex-direction:column;
+    width:20%;
+    font-family: 'Montserrat', sans-serif;
 }
-.location span{
-    margin-bottom:69px;
-}
-
 .country{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    margin-bottom:80px;
+    width:20%;
+    font-family: 'Montserrat', sans-serif;
 }
-.country span{
-    text-align:center;
-    margin-bottom:50px;
-}
-
-.tickets{
-    display:flex;
-    flex-direction:column;
-}
-.tickets a{
+.information a{
     margin-bottom:49px;
     background-color: red;
     width:90px;
@@ -107,7 +96,34 @@ nav ul li.active{
     text-align:center;
     padding:10px;
     text-decoration: none;
-    
+}
+@media screen and (max-width: 480px) {
+
+    .information{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .dates{
+        width:60%;
+        margin:auto;
+        margin-bottom:3%;
+        font-size:13px;
+    }
+    .location{
+        width:60%;
+        margin:auto;
+        margin-bottom:3%;
+    }
+    .country{
+        width:60%;
+        margin:auto;
+        margin-bottom:3%;
+    }
+    .information a{
+        margin:auto;
+        margin-bottom:8%;
+    }
 }
 
 .footer{
@@ -116,6 +132,7 @@ nav ul li.active{
     flex-direction:column;
     color:white;
     background-color:black;
+    font-family: 'Montserrat', sans-serif;
     
   }
   .socialmedias{

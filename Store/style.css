@@ -50,7 +50,7 @@ nav ul li.active{
 }
 .products h1{
     color:white;
-    font-size: 35px;
+    font-size: 40px;
     text-decoration-style: solid;
     margin-top:150px;
     margin-bottom:100px;
@@ -60,7 +60,7 @@ nav ul li.active{
 }
 .products h2{
     color:white;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom:100px;
     text-decoration-style: solid;
     text-align:center;
@@ -69,44 +69,66 @@ nav ul li.active{
 }
 
 .Merch{
+    width:80%;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap: wrap;
-    margin-left:110px;
     color:white;
+    margin:auto;
+    font-size:20px;
+}
+@media screen and (max-width: 480px){
+  body{
+    background-image: url("Images/background3.jpg");
+  }
+  .Albums{
+    margin:auto;
+  }
+  .Merch{
+    margin:auto;
+  }
+  .Albums img{
+    width:250px;
+    height:250px;
+  }
+  .Merch img{
+    width:250px;
+    height:250px;
+  }
 }
 .Merch li{
     display:flex;
     flex-direction:column;
-    margin-right:150px;
     margin-bottom:100px;
     text-align:center;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .Albums{
+    width:80%;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap: wrap;
-    margin-left:110px;
+    font-size:20px;
     color:white;
+    margin:auto;
 }
 .Albums li{
     display:flex;
     flex-direction:column;
-    margin-right:150px;
     margin-bottom:100px;
     text-align:center;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 #moreproducts{
   text-decoration: underline;
   color:white;
   font-size:20px;
   text-align:center;
   margin-bottom:80px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .footer{
     display:flex;
@@ -114,6 +136,7 @@ nav ul li.active{
     flex-direction:column;
     color:white;
     background-color:black;
+    font-family: 'Montserrat', sans-serif;
     
   }
   .socialmedias{

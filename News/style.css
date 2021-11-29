@@ -54,14 +54,14 @@ h1{
    margin-top:150px;
    margin-bottom: 80px;
    padding-bottom:30px;
-   margin-right:240px;
    font-family: 'Playball', cursive;
    width:70%;
 }
 .newscontainer{
   display:flex;
   flex-direction:row;
-  justify-content:center;
+  justify-content:space-evenly;
+  margin:auto;
   flex-wrap:wrap;
   width:70%;
   margin:auto;
@@ -73,11 +73,12 @@ h1{
 .newsitem{
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
-    margin-right:30px;
     margin-bottom:50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+}
+.newsitem p{
+  width:285px;
 }
 
 .newsitem a{
@@ -97,20 +98,43 @@ h1{
     flex-direction:row;
     border:10px #333;
     background-color:black;
-    width:900px;
+    width:63%;
+    margin:auto;
     margin-top:50px;
-    margin-left:290px;
     margin-bottom:100px;
     padding:auto;
+    font-family: 'Montserrat', sans-serif;
 }
 .Letterbox p{
     margin:auto;
     padding:auto;
+    width:50%;
 }
 .Letterbox form{
     margin-right:100px;
     margin-top:30px;
     margin-bottom:30px;
+}
+@media screen and (max-width: 480px) {
+  .Letterbox{
+    width:80%;
+  }
+  .Letterbox form{
+    margin:auto;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:auto;
+  }
+  .Letterbox input{
+    width:100%;
+  }
+  .Letterbox p{
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
 }
 .footer{
     display:flex;
@@ -118,6 +142,7 @@ h1{
     flex-direction:column;
     color:white;
     background-color:black;
+    font-family: 'Montserrat', sans-serif;
     
   }
   .socialmedias{
@@ -127,7 +152,7 @@ h1{
     justify-content:center;
   }
   .socialmedias a{
-    margin:15px;
+    margin:30px;
   }
   
   .Policies{
