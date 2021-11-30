@@ -16,23 +16,23 @@ ul {
   margin: 0;
   padding:0;
   overflow: hidden;
-  background-color: #333;
+  bottom:0;
 }
 
 li {
-  float: left;
+  float:right;
 }
 
 li a{
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 25px 30px;
+  padding: 18px 45px;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  text-decoration:none;
+  text-decoration:underline;
 }
 
 li.dropdown {
@@ -62,7 +62,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 @media screen and (max-width:480px
 ){
@@ -98,7 +97,7 @@ li.dropdown {
 
 img { 
   width: 100%;
-  height: auto;
+  height: 677px;
 }
 @media screen and (max-width: 480px){
   img{
@@ -221,10 +220,9 @@ img {
   flex-direction:row;
   background-color: black;
   margin:auto;
-  margin:auto;
   margin-top:30px;
   margin-bottom:70px;
-  padding:auto;
+  padding:40px;
   color:white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -237,6 +235,9 @@ img {
   margin-top:30px;
   margin-bottom:30px;
 }
+.error{ 
+  margin:auto;
+  color: red; font-size: 0.8em;}
 
 @media screen and (max-width: 480px) {
   .Letterbox{

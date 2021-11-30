@@ -17,11 +17,11 @@
 <body>
     <nav>
         <ul>
-            <li class="vertical"><a href="index.html" class="active">HOME</a></li>
-            <li class="vertical"><a href="Tour.html">TOUR</a></li>
-            <li class="vertical"><a href="News.html">NEWS</a></li>
-            <li class="vertical"><a href="Music.html">MUSIC</a></li>
             <li class="vertical"><a href="Store.html">STORE</a></li>
+            <li class="vertical"><a href="Music.html">MUSIC</a></li>
+            <li class="vertical"><a href="News.html">NEWS</a></li>
+            <li class="vertical"><a href="Tour.html">TOUR</a></li>
+            <li class="vertical"><a href="index.html" class="active">HOME</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">=</a>
                 <div class="dropdown-content">
@@ -34,10 +34,9 @@
             </li>
         </ul>
     </nav>
-
-    <img src="Homepage/Images/jaychoucoverpage.jpg" alt="Jaychou" height=800px;>  
+    <img src="Homepage/Images/chinesefontdesign.com-2018-10-13-21-41-36-51.jpg"> 
     <section class="Biography">
-        <img src="Homepage/Images/jaychoubiography.jpg" alt="Jaychou" >
+        <img src="Homepage/Images/jaychoubiography.jpg" alt="Jaychou">
         <div class="BiographyDescription">
             <h1>Biography</h1>
             <p>Jay Chou (traditional Chinese: 周杰倫; simplified Chinese: 周杰伦; pinyin: Zhōu Jiélún; born 18 January 1979)[1] is a Taiwanese singer, songwriter, rapper, record producer, actor, 
@@ -85,18 +84,17 @@
            Follow and Subscribe to be one of the first<br>
            to know when Jay is bringing new music!</p>
         <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" name="fname" ><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" name="lname" ><br>
             <label for="email">Email:</label><br>
-            <input type="text" name="email" >
+            <input type="text" id="email">
+            <div class="error" id="errorEmail">  </div>
+            <button type="submit">Sign Up!</button>
         </form>
+        <script src="script.js"></script>
     </section>
     <section class="Latestvideo">
         <h2>Latest Video</h2>
         <iframe src="https://player.vimeo.com/video/575999780?h=af5f75330a" width="1300" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <a href="http://127.0.0.1:5500/Assignment_1/Music/index.html">View All Videos</a>
+        <a href="Music.html">View All Videos</a>
     </section>
     <section class="Latestmerchandise">
         <h2>Latest Merchandise</h2>
@@ -104,21 +102,21 @@
             <div class="merchandiseitems">
                 <img src="Homepage/Images/Merchandiseimages/2.-Crystal-Ball-Black.jpeg" alt="Black Crystal Ball">
                 <h3>Crystal Ball-Black</h3>
-                <a href="http://127.0.0.1:5500/Assignment_1/Store/index.html">Buy Now</a>
+                <a href="Store.html">Buy Now</a>
             </div>
             <div class="merchandiseitems">
                 <img src="Homepage/Images/Merchandiseimages/3.-Tee-Shirt-Black.jpeg" alt="Black Tee shirt ">
                 <h3>Tshirt-Blue</h3>
-                <a href="http://127.0.0.1:5500/Assignment_1/Store/index.html">Buy Now</a>
+                <a href="Store.html">Buy Now</a>
             </div>
             <div class="merchandiseitems">
                 <img src="Homepage/Images/Merchandiseimages/3.-Tee-Shirt-Pink.jpg" alt="Pink Tee Shirt">
                 <h3>Tshirt-Pink</h3>
-                <a href="http://127.0.0.1:5500/Assignment_1/Store/index.html">Buy Now</a>
+                <a href="Store.html">Buy Now</a>
             </div>
         </div>
     </section>
-    <a id="visitthestore" href="http://127.0.0.1:5500/Assignment_1/Store/index.html">Visit the Store</a>
+    <a id="visitthestore" href="Store.html">Visit the Store</a>
     <footer class="footer">
         <div class="socialmedias">
             <a href="https://www.instagram.com/jaychou/"><i class="gg-instagram" style="font-size:60px;color:whitesmoke;"></i>
