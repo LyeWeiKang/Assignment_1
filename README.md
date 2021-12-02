@@ -112,8 +112,8 @@ Link:https://www.javascript.com/
 
 8.Moreproducts (in Storepage)
 
-*Go to the store page.
-*Try to click on the readmore button and verify that it will bring you to the store in another website
+-Go to the store page.
+-Try to click on the readmore button and verify that it will bring you to the store in another website
 
 The website looks the same and work similiarly for different browsers. When the website is being runs on different screen sizes, the formating of the content and the navigation bar will change. Instead of vertical navigation bar, it changed to a drop down navigation bar and will be in white in colour as compared to previous colour black when being run on pc/laptop. In addition, instead of many items being displayed in one row, it will change to a single item being displayed for each row when the website runs on phone.
 
