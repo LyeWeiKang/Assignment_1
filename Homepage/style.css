@@ -236,7 +236,6 @@ img {
 }
 .Letterbox p{
   margin:auto;
-  padding:auto;
 }
 .Letterbox form{
   margin-right:100px;
@@ -260,7 +259,7 @@ img {
     margin-right:20px;
     margin-top:5px;
     margin-bottom:5px;
-    padding:auto;
+
   }
   .Letterbox input{
     width:100%;
