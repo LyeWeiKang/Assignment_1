@@ -170,7 +170,6 @@ h1{
 }
 .Letterbox p{
     margin:auto;
-    padding:auto;
     width:50%;
 }
 .Letterbox form{
@@ -191,7 +190,6 @@ h1{
     margin-right:20px;
     margin-top:5px;
     margin-bottom:5px;
-    padding:auto;
   }
   .Letterbox input{
     width:100%;
