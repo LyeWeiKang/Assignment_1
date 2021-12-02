@@ -15,7 +15,6 @@ ul{
   margin: 0;
   padding:0;
   overflow: hidden;
-  background-color:black;
 }
 
 li {
@@ -210,10 +209,17 @@ li.dropdown {
     flex-direction:row;
     justify-content:center;
   }
+  
   .Policies a{
     margin-right:20px;
     margin-bottom:30px;
     color:white;
+  }
+  @media screen and (max-width: 480px){
+    .Policies a{
+      margin-left:20px ;
+      font-size:12px;
+    }
   }
   .Policies a:link {
     text-decoration: none;

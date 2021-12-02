@@ -219,6 +219,12 @@
     margin-bottom:30px;
     color:white;
   }
+  @media screen and (max-width: 480px){
+    .Policies a{
+      margin-left:20px ;
+      font-size:12px;
+    }
+  }
   .Policies a:link {
     text-decoration: none;
   
