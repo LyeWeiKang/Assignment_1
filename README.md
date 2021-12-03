@@ -4,8 +4,9 @@ Assignment 1
 My website is a singer website which aims to help a singer to gain popularity through their songs, albums and concerts and at the same time,also let their fans have a deeper understanding of them.
 
 Through the website,the public will be able to gain more knowledge of the singer as they will be updated with the latest news,songs,concerts and upcoming merchandises.
+
 # Design Process
-This website is mainly targetted at the fans of the singer and general public who want to know more about this singer. The targetted audience would definitely like to find out more about the singer and my project is the best way to help them achieve these things since it consists of large chunk of relative information about the singer which include the biography of the singer, the latest albums, concert dates and latest MV produced.
+This website is mainly targetted at the fans of the singer and general public who want to know more about this singer. The targetted audience would definitely like to find out more about the singer and my project is the best way to help them achieve these things since it consists large chunk of relative information of the singer which include the biography of the singer, the latest albums, concert dates and latest MVs produced.This website is build in a way to promote the singer and to attract the general public to become fans of the singer and this can be done so through letting the public to hear the latest MVs, latest albums, latest tracks of the singer. In addition, my website also can cater to public who are already fans of the singer. This is because my website consists of information that the fans would like to find out. For example, all the related news of the singer, upcoming concert dates . Some of these informations might be hard to find on the internet. This makes my website especially useful for the fans of the singer as it has all the consolidated information of the singer on the website.
 
 As a user type, I want to read the biography of the singer so that I can know the singer's background information.
 
@@ -22,19 +23,19 @@ As a user type, I want to subscribe to the letter box so that i can get the late
 As a user type, I want to know all the social medias of the singer so that I can follow them to receive the latest updates of them.
 
 ## WireFrame
-../WireFrame/WireFrame(assignment).xd
-I did not completely follow the wireframe that i designed.I scrapped out Sections like past concert as I realise that is not really visually appealing after implementing it into the website. In addition, after looking at most of the official websites for singer as references, I realise that they also did not have the section on past tours which make my decision firmer in scraping out that section.  I also did add sections like Latest merchandise,latest video into the website which was not included in wireframe.This was to make the homepage to look more interesting and not so plain. Apart from this, the rest of the sections of the website remain the same as the wireframe.
+[AdobeXD](https://xd.adobe.com/view/c7497ece-a2b7-445a-b3fd-5e3e1374f131-921a/)
+I did not completely follow the wireframe that i designed.I scrapped out the Section on past concert as I realise that is not really visually appealing after implementing it into the website. In addition, after looking at most of the official websites for singer as references, I realise that the websites also do not have the section of past tours. I also added sections like Latest merchandise,Latest video and a track player into the homepage which was not included in the wireframe.This was to make the homepage to look more interesting and not so plain.The track player also allow multiple musics to be played which make the website to look more legitimate. Apart from this, the rest of the sections of the website remain the same as the wireframe.
 
 # Features
 
 ## Existing Features
-Feature 1-Navigation bar allows users to navigate through the website easily by having them to click on the respective links on the navigation bar
+Feature 1-Navigation bar allows users to navigate through the pages of the website easily by having them to click on the respective links on the navigation bar
 
 Feature 2-NewsLetter allows users to be updated with the latest news through their email by having them to sign up for it.
 
 Feature 3-The View All Videos feature allow users to navigate to the music page to see all the MVs of the singer by having them to click on the link- View all.
 
-Feature 4- The Visit The Store feature and Buy Now feature allow users to navigate to the store page to view and buyitems by having them to click on the Buy Now button and the link -Visit the Store.
+Feature 4- The features-Visit The Store and Buy Now, allow users to navigate to the store page to view and buyitems by having them to click on the link-Buy Now and the link -Visit the Store.
 
 
 Feature 5- The ticket feature allows user to be redirected to another website to buy the ticket by having them to click on the ticket button.
@@ -43,18 +44,16 @@ Feature 6-The read more feature allows user to be redirected to another news web
 
 Feature 7-The more videos feature allow user to be redirect to the youtube channel of JayChou to view more MVs by having them to click on the link-View more videos.
 
-Feature 8- The more product feature allow user to be redirected to another website that sell all the merchandises by havingthem to click on the link- More Products.
+Feature 8- The more products feature allow user to be redirected to another website that sell all the merchandises by havingthem to click on the link- More Products.
 
 Feature 9- The logos at the footer allows users to be redirected to the respective social medias of JayChou to follow him by having them to click on the respective logos.
 
 ## Features Left to Implement 
 Feature 1- The shopping cart feature which allow users to store all the albums or merchandises they want buy into the shopping cart by having them to click on the items they want to buy
 
-Feature 2- The MusicPlayer feature which allow users to listen to the most recent music of Jaychou on the website by having them to click on the music play list- to choose a song and the play button- to start the song.
+Feature 2- The gps feature which allow users to check the location of the concert by having them to click on the concert that they want to go.
 
-Feature 3- The gps feature which allow users to check the location of the concert by having them to click on the concert that they want to go.
-
-Feature 4- The back feature which allow users to scroll all the way back to the top of the website by having them to click on the back button.
+Feature 3- The back feature which allow users to scroll all the way back to the top of the website by having them to click on the back button.
 
 # Tecnologies Used
 1.HTML
@@ -221,6 +220,23 @@ The photos used in this site were obtained from
 40)https://www.bing.com/images/search?view=detailV2&insightsToken=bcid_S4kb6kQQCIgDqxcxoNWLuD9SqbotqVTdP5w&FORM=SBIIDP&iss=SBIUPLOADGET&sbisrc=ImgDropper&idpbck=1&sbifsz=475+x+720+%c2%b7+64.23+kB+%c2%b7+jpeg&sbifnm=TheEra(cd).jpg&thw=475&thh=720&ptime=15&dlen=87696&expw=475&exph=720
 
 41)https://www.bing.com/images/search?view=detailV2&insightstoken=bcid_S5tVmQW0DogDAg*ccid_m1WZBbQO&form=SBIIDP&iss=SBIUPLOADGET&sbisrc=ImgDropper&idpbck=1&sbifsz=390+x+390+%c2%b7+27.16+kB+%c2%b7+jpeg&sbifnm=TheEra.jpg&thw=390&thh=390&ptime=10&dlen=37076&expw=390&exph=390&selectedindex=0&id=1406601004&ccid=m1WZBbQO&vt=2&sim=11
+
+### Embedded Videos
+
+https://player.vimeo.com/video/575999780?h=af5f75330a
+https://widget.deezer.com/widget/dark/album/13420331
+https://player.vimeo.com/video/43517204?h=851bc802ef
+https://player.vimeo.com/video/195760442?h=61d2a0bf
+https://player.vimeo.com/video/293533324?h=2a1ebc1738
+https://player.vimeo.com/video/21060193?h=e626d73b6a
+https://player.vimeo.com/video/293533324?h=2a1ebc1738
+https://player.vimeo.com/video/536283875?h=ffa61a56f4
+https://player.vimeo.com/video/122959759?h=6d1737d081
+https://player.vimeo.com/video/48414599?h=82ff134b0f&title=0&byline=0&portrait=0
+https://player.vimeo.com/video/174916707?h=5e07645f0a
+https://player.vimeo.com/video/115622469?h=be50b5f97f
+https://player.vimeo.com/video/74994520?h=1796c907fb
+https://player.vimeo.com/video/19343548?h=9c3d767358
 
 
 ## Acknowledgements
