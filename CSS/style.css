@@ -735,9 +735,42 @@
     .Letterbox button{
      width:fit-content;
      font-family:sans-serif;
+    }
   }
+  .Latesttrack{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:100px;
+  }
+  .Latesttrack iframe{
+    margin:auto;
   }
   
+  .Latesttrack h2{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    text-decoration:none;
+    font-family: 'Playball', cursive;
+    margin-bottom:30px;
+  }
+  @media screen and (max-width: 480px) {
+    .Latesttrack{
+      margin-top:15px;
+      margin-bottom:70px;
+    }
+    .Latesttrack iframe{
+      width:80%;
+      margin:auto;
+    }
+    .Latesttrack h2{
+      font-size: 30px;
+      margin-bottom: 5%;
+    }
+  }
   
   .Latestvideo{
     display:flex;
@@ -752,6 +785,7 @@
     text-align:center;
     color:white;
     font-size: 50px;
+    margin-bottom:20px;
     text-decoration:none;
     font-family: 'Playball', cursive;
   }
@@ -765,11 +799,12 @@
     margin-bottom:50px;
     font-family: 'Montserrat', sans-serif;
   }
+
   @media screen and (max-width: 480px) {
     .Latestvideo iframe{
-      width:80%;
+      width:100%;
       margin:auto;
-      height:10%
+      height:200px;
     }
     .Latestvideo h2{
       font-size: 30px;
