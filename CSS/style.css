@@ -1217,7 +1217,7 @@
     flex-direction:column;
     background-size: cover;
     background-repeat:no-repeat;
-    background-image: url("backgroundimg.jpg");
+    background-image: url(../Images/Storepage/backgroundimg.jpg);
   }
   .products h1{
     color:white;
