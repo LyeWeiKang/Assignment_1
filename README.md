@@ -23,7 +23,7 @@ As a user type, I want to subscribe to the letter box so that i can get the late
 As a user type, I want to know all the social medias of the singer so that I can follow them to receive the latest updates of them.
 
 ## WireFrame
-[AdobeXD](https://xd.adobe.com/view/c7497ece-a2b7-445a-b3fd-5e3e1374f131-921a/)
+[AdobeXD](https://xd.adobe.com/view/bae8c9f6-f056-449a-b832-58b4afcc75d6-efbb/)
 I did not completely follow the wireframe that i designed.I scrapped out the Section on past concert as I realise that is not really visually appealing after implementing it into the website. In addition, after looking at most of the official websites for singer as references, I realise that the websites also do not have the section of past tours. I also added sections like Latest merchandise,Latest video and a track player into the homepage which was not included in the wireframe.This was to make the homepage to look more interesting and not so plain.The track player also allow multiple musics to be played which make the website to look more legitimate. Apart from this, the rest of the sections of the website remain the same as the wireframe.
 
 # Features
