@@ -607,9 +607,6 @@
     margin-bottom:15px;
   
   }
-  iframe{
-    border:0%;
-  }
   @media screen and (max-width: 480px) {
     .Biography{
       display:flex;
