@@ -747,6 +747,7 @@
   }
   .Latesttrack iframe{
     margin:auto;
+    border:0px;
   }
   
   .Latesttrack h2{
@@ -779,6 +780,7 @@
   }
   .Latestvideo iframe{
     margin:auto;
+    border:0px;
   }
   
   .Latestvideo h2{
@@ -1150,6 +1152,9 @@
     padding-bottom:30px;
     border-bottom: 10px solid white;
 }
+.firstvideo iframe{
+  border:0px;
+}
 .firstvideo p{
     margin:auto;
     font-family: 'Playfair Display', serif;
@@ -1166,6 +1171,7 @@
 }
 .othervideos iframe{
     margin-bottom:20px;
+    border:0px;
 }
 #morevideos{
   text-decoration: underline;
