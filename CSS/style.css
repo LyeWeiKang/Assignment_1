@@ -804,6 +804,7 @@
 
   @media screen and (max-width: 480px) {
     .Latestvideo iframe{
+      border:0px;
       width:100%;
       margin:auto;
       height:200px;
