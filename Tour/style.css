@@ -10,7 +10,7 @@
     background-repeat:no-repeat;
     background-color:#131313;
   }
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding:0;
@@ -60,7 +60,7 @@
       font-size:0%;
       padding:0px;
     }
-    ul {
+    nav ul {
       list-style-type: none;
       margin: 0;
       padding:10px;
@@ -112,14 +112,13 @@
       display:flex;
       flex-direction:column;
       color:white;
-      margin-top:110px;
       text-transform:uppercase;
 }
 .tour h1{
     font-size:30px;
     margin:auto;
+    margin-top:70px;
     margin-bottom:100px;
-    margin-top:0px;
     font-weight:bold;
     text-decoration: none;
     font-family: 'Playball', cursive;
@@ -187,6 +186,11 @@
     .information a{
         margin:auto;
         margin-bottom:8%;
+    }
+    .tour h1{
+        margin-bottom:50px;
+        font-size:25px;
+    
     }
 }
 

@@ -10,11 +10,12 @@ body{
   background-repeat:no-repeat;
   background-image: url("Images/background3.jpg");
 }
-ul{
+nav ul{
   list-style-type: none;
   margin: 0;
   padding:0;
   overflow: hidden;
+  background-color: black;
 }
 
 li {
@@ -111,8 +112,8 @@ li.dropdown {
     color:white;
     font-size: 40px;
     text-decoration-style: solid;
-    margin-top:80px;
     margin-bottom:80px;
+    margin-top:50px;
     text-align:center;
     font-family: 'Playball', cursive;
     

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="/Assignment_1/Homepage/style.css">
+    <link rel="stylesheet" href="/Assignment_1/CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Lato:wght@100&family=Mohave&family=Montserrat:wght@300&family=Nunito:ital,wght@1,300&family=Playball&family=Racing+Sans+One&family=Roboto:wght@100&family=Ultra&display=swap" rel="stylesheet">
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href='https://css.gg/facebook.css' rel='stylesheet'>
@@ -15,29 +15,19 @@
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="vertical"><a href="Store.html">STORE</a></li>
-            <li class="vertical"><a href="Music.html">MUSIC</a></li>
-            <li class="vertical"><a href="News.html">NEWS</a></li>
-            <li class="vertical"><a href="Tour.html">TOUR</a></li>
-            <li class="vertical"><a href="index.html">HOME</a></li>
-            <li class="dropdown">
-                <a class="logo" href="index.html">Jay Chou</a>
-                <a href="javascript:void(0)" class="dropbtn">=</a>
-                <div class="dropdown-content">
-                  <a href="index.html">HOME</a>
-                  <a href="Tour.html">TOUR</a>
-                  <a href="News.html">NEWS</a>
-                  <a href="Music.html">MUSIC</a>
-                  <a href="Store.html">STORE</a>
-                </div>
-            </li>
-        </ul>
-     </nav>
-    <img src="Homepage/Images/chinesefontdesign.com-2018-10-13-21-41-36-51.jpg" alt="JayChou"> 
+    
+     <div class="alignlinkinimage">
+        <img src="Homepage/Images/chinesefontdesign.com-2018-10-13-21-41-36-51.jpg" alt="JayChou">
+        <div class="links">
+            <a id="aligntour"href="Tour.html">TOUR |</a>
+            <a id="alignnews" href="News.html">NEWS |</a>
+            <a id="alignmusic"href="Music.html">MUSIC |</a>
+            <a id= "alignstore" href="Store.html">STORE |</a>
+        </div>
+        <a id="aligntitle" href="#biographysection"> JayChou </a>
+    </div>
     <section class="Biography">
-        <img src="Homepage/Images/Jaychoubiography.jpg" alt="Jaychou Image">
+        <img id= "biographysection" src="Homepage/Images/Jaychoubiography.jpg" alt="Jaychou Image">
         <div class="BiographyDescription">
             <h1>Biography</h1>
             <p>Jay Chou (traditional Chinese: 周杰倫; simplified Chinese: 周杰伦; pinyin: Zhōu Jiélún; born 18 January 1979)[1] is a Taiwanese singer, songwriter, rapper, record producer, actor, 

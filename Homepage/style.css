@@ -11,107 +11,121 @@ body{
   background-repeat:no-repeat;
   background-color:#131313;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-  overflow: hidden;
-  bottom:0;
+.alignlinkinimage{
+  position:relative;
 }
-
-li {
-  float:right;
-}
-
-li a{
-  display: inline-block;
-  color: white;
+#aligntour{
+  position: absolute;
+  top:64%;
+  right: 54.5%;
+  width: fit-content;
   text-align: center;
-  padding: 18px 45px;
+  font-size: 16px;
+  color:white;
   text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-
-li a:hover, .dropdown:hover .dropbtn {
+#alignnews{
+  position: absolute;
+  top:64%;
+  right: 49.7%;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#alignmusic{
+  position: absolute;
+  top:64%;
+  right: 44.7%;
+  width: fit-content;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#alignstore{
+  position: absolute;
+  top:64%;
+  right: 39.7%;
+  width: fit-content;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#aligntitle{
+  position: absolute;
+  top:68%;
+  right: 42%;
+  width: fit-content;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  text-decoration:none;
+  font-size:50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.alignlinkinimage img{
+  height:743px;
+}
+.links a:hover{
   text-decoration:underline;
+  background-color: red;
 }
-
-li.dropdown {
-  display: inline-block;
-  visibility:hidden;
-}
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-@media screen and (max-width:480px
-){
-  li.dropdown{
-    visibility:visible;
-  }
-  .vertical{
-    visibility:hidden;
-    font-size:0%;
-    padding:0px;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding:10px;
-    overflow: hidden;
-    background-color: white;
-  }
-  li a{
-    padding:0px 0px;
-    text-decoration: none;
-  }
-  .dropbtn{
-    display: inline-block;
-    color:black;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size:30px;
-    font-family: 'Courier New', Courier, monospace
-  }
-  .logo{
-    margin-right:200px;
-    font-size:20px;
-    font-family:fantasy;
-    color:black;
-  }
-  .dropdown-content a:hover {
-    text-decoration:none;
-    background-color:red;
-  }
-  .dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    margin:auto;
-    position:absolute;
-    right:15px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-  }
-}
-
-img { 
+.alignlinkinimage img { 
   width: 100%;
-  height: 640px;
+  height: 743px;
 }
 @media screen and (max-width: 480px){
-  img{
+  .alignlinkinimage img{
     width:100%;
     height:700px;
+  }
+  #aligntour{
+    top:64%;
+    right: 68%;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #alignnews{
+    position: absolute;
+    top:64%;
+    right:52%;
+    font-size: 12px;
+  }
+  #alignmusic{
+    position: absolute;
+    top:64%;
+    right: 35%;
+    width: fit-content;
+    font-size: 12px;
+  }
+  #alignstore{
+    position: absolute;
+    top:64%;
+    right: 20%;
+    width: fit-content;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #aligntitle{
+    position: absolute;
+    top:68%;
+    right: 35%;
+    width: fit-content;
+    text-align: center;
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
   }
 }
 .Biography{
@@ -136,7 +150,7 @@ img {
 }
 .Biography img{
   max-width:100%;
-  height:40%;
+  height:50%;
 }
 
 .Biography p{

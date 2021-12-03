@@ -1,0 +1,1253 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+  /*Code start */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+  body{
+    display:flex;
+    flex-direction:column;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color:#131313;
+  }
+  l {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:black;
+  }
+  li {
+    float:left;
+  }
+  li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px 45px;
+    margin-top:20px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+    text-decoration:underline;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    visibility:hidden;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width:480px
+  ){
+    li{
+      float:right;
+    }
+    li.dropdown{
+      visibility:visible;
+    }
+    li a{
+      margin-top:0px;
+    }
+    .vertical{
+      visibility:hidden;
+      font-size:0%;
+      padding:0px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding:10px;
+      overflow: hidden;
+      background-color: white;
+    }
+    li a{
+      padding:0px 0px;
+      text-decoration: none;
+    }
+    .dropbtn{
+      display: inline-block;
+      color:black;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size:30px;
+      font-family: 'Courier New', Courier, monospace
+    }
+    .logo{
+      margin-right:200px;
+      font-size:20px;
+      font-family:fantasy;
+      color:black;
+      text-decoration:none;
+    }
+    .dropdown-content a:hover {
+      text-decoration:none;
+      background-color:red;
+    }
+    .dropdown-content {
+      display: none;
+      background-color: #f9f9f9;
+      min-width: 100px;
+      margin:auto;
+      position:absolute;
+      right:15px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  
+  .alignlinkinimage{
+    position:relative;
+  }
+  #aligntour{
+    position: absolute;
+    top:64%;
+    right: 54.5%;
+    width: fit-content;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #alignnews{
+    position: absolute;
+    top:64%;
+    right: 49.7%;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #alignmusic{
+    position: absolute;
+    top:64%;
+    right: 44.7%;
+    width: fit-content;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #alignstore{
+    position: absolute;
+    top:64%;
+    right: 39.7%;
+    width: fit-content;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  #aligntitle{
+    position: absolute;
+    top:68%;
+    right: 42%;
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    text-decoration:none;
+    font-size:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  .alignlinkinimage img{
+    height:743px;
+  }
+  .links a:hover{
+    text-decoration:underline;
+    background-color: red;
+  }
+  .alignlinkinimage img { 
+    width: 100%;
+    height: 743px;
+  }
+  @media screen and (max-width: 480px){
+    .alignlinkinimage img{
+      width:100%;
+      height:700px;
+    }
+    #aligntour{
+      top:64%;
+      right: 68%;
+      font-size: 12px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    #alignnews{
+      position: absolute;
+      top:64%;
+      right:52%;
+      font-size: 12px;
+    }
+    #alignmusic{
+      position: absolute;
+      top:64%;
+      right: 35%;
+      width: fit-content;
+      font-size: 12px;
+    }
+    #alignstore{
+      position: absolute;
+      top:64%;
+      right: 20%;
+      width: fit-content;
+      text-align: center;
+      font-size: 12px;
+      color:white;
+      text-decoration: none;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    #aligntitle{
+      position: absolute;
+      top:68%;
+      right: 35%;
+      width: fit-content;
+      text-align: center;
+      color:white;
+      text-decoration:none;
+      font-size:25px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+  }
+  .Biography{
+    display:flex;
+    flex-direction:row;
+    padding:100px;
+    border-top:5px solid white;
+  }
+  
+  .BiographyDescription{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    font-size:20px;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+  }
+  .Biography h1{
+    font-family: 'Playball', cursive;
+    margin-bottom:50px;
+    font-size:50px;
+  }
+  .Biography img{
+    max-width:100%;
+    height:50%;
+  }
+  
+  .Biography p{
+    color:white;
+    width:100%;
+    margin-bottom:15px;
+  
+  }
+  @media screen and (max-width: 480px) {
+    .Biography{
+      display:flex;
+      flex-direction:column;
+      padding:0px;
+    }
+    .BiographyDescription{
+      width:60%;
+      font-size:15px;
+      padding:0%;
+      margin:auto;
+    }
+    .Biography h1{
+      margin-top:20px;
+      margin-bottom:10px;
+      font-size:30px;
+    }
+    .Biography img{
+      max-width:100%;
+      height:80%;
+    }
+  }
+  
+  .LatestRelease{
+    border-top:5px solid white;
+    margin:auto;
+    width:80%;
+  }
+  #heading_LR{
+    color:white;
+    margin-top:100px;
+    margin-bottom:50px;
+    font-size: 50px;
+    text-decoration:none;
+    font-family: 'Playball', cursive;
+    text-align:center;
+  }
+  .albumcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin:auto;
+  }
+  .albumcontainer img{
+    width:180px;
+    height:180px;
+  }
+  .albumitems{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-evenly;
+      margin-bottom:50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+  }
+  .albumitems a{
+      width:180px;
+      border: 2px solid white;
+      background-color:black;
+      text-align:center;
+      margin:auto;
+      padding: 5px;
+      margin-top:20px;
+      text-decoration: none;
+      color:white;
+      font-family: 'Montserrat', sans-serif;
+  }
+  @media screen and (max-width: 480px) {
+    #heading_LR{
+      margin:auto;
+      margin-top:30px;
+      margin-bottom:30px;
+      text-align:center;
+      font-size:40px;
+    }
+  }
+  .Letterbox{
+    width:73%;
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:70px;
+    padding:40px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .Letterbox p{
+    margin:auto;
+  }
+  .Letterbox form{
+    margin-right:100px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+  }
+  .Letterbox button{
+      color:black;
+      background-color:white;
+  }
+  .error{ 
+    margin:auto;
+    color: red; font-size: 0.8em;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Letterbox{
+      margin:auto;
+      width:80%;
+      margin-top:20px;
+      margin-bottom:40px;
+    }
+    .Letterbox form{
+      margin:auto;
+      margin-left:20px;
+      margin-right:20px;
+      margin-top:5px;
+      margin-bottom:5px;
+  
+    }
+    .Letterbox input{
+      width:100%;
+    }
+    .Letterbox p{
+      margin-left:20px;
+      margin-top:5px;
+      margin-bottom:5px;
+    }
+  }
+  .Latestvideo{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+  }
+  .Latestvideo iframe{
+    margin:auto;
+  }
+  
+  .Latestvideo h2{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    text-decoration:none;
+    font-family: 'Playball', cursive;
+  }
+  
+  .Latestvideo a{
+    text-decoration: underline;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  @media screen and (max-width: 480px) {
+    .Latestvideo iframe{
+      width:80%;
+      margin:auto;
+      height:10%
+    }
+    .Latestvideo h2{
+      font-size: 30px;
+      margin-bottom: 5%;
+    }
+    .Latestvideo a{
+      margin:auto;
+      margin-top:5%;
+    }
+  }
+  .Latestmerchandise{
+    margin:auto;
+    width:85%;
+  }
+  .Latestmerchandise h2{
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    text-decoration:none;
+    font-family: 'Playball', cursive;
+  }
+  .Latestmerchandise h3{
+    margin-top:10px;
+    color:white;
+    font-size:25px;
+    text-align:start;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .Merchandisecontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width:100%;
+    margin:auto;
+  }
+  .Latestmerchandise img{
+    width:320px;
+    height:320px;
+  }
+  .merchandiseitems{
+      display:flex;
+      flex-direction:column;
+      margin-bottom:50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+  }
+  
+  .merchandiseitems a{
+      width:fit-content;
+      border: 2px solid white;
+      padding: 10px;
+      margin-top:25px;
+      text-decoration: none;
+      color:white;
+      background-color:black;
+      font-family: 'Montserrat', sans-serif;
+  }
+  #visitthestore{
+    text-decoration: underline;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    margin-bottom:80px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .merchandiseitems h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  @media screen and (max-width: 480px) {
+    .Latestmerchandise{
+      width:100%;
+    }
+    .Latestmerchandise h2{
+      font-size:30px;
+      margin-top:20%;
+      margin-bottom:10%;
+    }
+    .Latestmerchandise h3{
+      margin:auto;
+      color:white;
+      font-size:20px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top:5%;
+      
+    }
+    .Merchandisecontainer{
+      flex-direction:column;
+      width:100%;
+      margin:auto;
+    }
+    .Latestmerchandise img{
+      width:200px;
+      height:200px;
+      margin:auto;
+    }
+    .merchandiseitems a{
+      margin:auto;
+      margin-top:5%;
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+  }
+  .footer{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    color:white;
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .socialmedias{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .socialmedias a{
+    margin:15px;
+  }
+  
+  .Policies{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .Policies a{
+    margin-right:20px;
+    margin-bottom:30px;
+    color:white;
+  }
+
+  @media screen and (max-width: 480px){
+    .Policies a{
+      margin-left:20px ;
+      font-size:12px;
+    }
+  }
+  .Policies a:link {
+    text-decoration: none;
+  }
+/*Tour*/
+.tour{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    text-transform:uppercase;
+}
+.tour h1{
+  font-size:30px;
+  margin:auto;
+  margin-top:70px;
+  margin-bottom:100px;
+  font-weight:bold;
+  text-decoration: none;
+  font-family: 'Playball', cursive;
+}
+
+.informationcontainer{
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  margin:auto;
+}
+.information{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly; 
+  margin:auto;
+  text-align:center;
+}
+
+.dates{
+  width:20%;
+  font-family: 'Open Sans', sans-serif;
+}
+.location{
+  width:20%;
+  font-family: 'Montserrat', sans-serif;
+}
+.country{
+  width:20%;
+  font-family: 'Montserrat', sans-serif;
+}
+.information a{
+  margin-bottom:49px;
+  background-color: red;
+  width:90px;
+  border:10px red;
+  color:white;
+  text-align:center;
+  padding:10px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+  .information{
+      display:flex;
+      justify-content:center;
+      flex-direction:column;
+  }
+  .dates{
+      width:60%;
+      margin:auto;
+      margin-bottom:3%;
+      font-size:13px;
+  }
+  .location{
+      width:60%;
+      margin:auto;
+      margin-bottom:3%;
+  }
+  .country{
+      width:60%;
+      margin:auto;
+      margin-bottom:3%;
+  }
+  .information a{
+      margin:auto;
+      margin-bottom:8%;
+  }
+  .tour h1{
+      margin-bottom:50px;
+      font-size:25px;
+  
+  }
+}
+/*News*/
+.news{
+    color:white;
+}
+.news h1{
+    text-align :center;
+    font-size: 40px;
+    border-bottom:5px solid white;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom: 80px;
+    padding-bottom:30px;
+    font-family: 'Playball', cursive;
+    width:70%;
+ }
+ .newscontainer{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-evenly;
+   margin:auto;
+   flex-wrap:wrap;
+   width:70%;
+   margin:auto;
+ }
+ .newscontainer img{
+   width:280px;
+   height:280px;
+ }
+ .newsitem{
+     display:flex;
+     flex-direction:column;
+     margin-bottom:50px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+ }
+ .newsitem p{
+   width:285px;
+ }
+ 
+ .newsitem a{
+     width:100px;
+     border: 2px solid white;
+     background-color:black;
+     text-align:center;
+     margin-left:180px;
+     padding: 5px;
+     margin-top:10px;
+     text-decoration: none;
+     color:white;
+ }
+ .newsLetterbox{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    width:63%;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:100px;
+    padding:40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.newsLetterbox p{
+    color:white;
+    margin:auto;
+    width:50%;
+}
+.newsLetterbox form{
+    margin-right:100px;
+    margin-top:30px;
+    margin-bottom:30px;
+    color:white;
+}
+.error{ 
+  margin:auto;
+  color: red; font-size: 0.8em;}
+@media screen and (max-width: 480px) {
+  .newsLetterbox{
+    width:80%;
+  }
+  .newsLetterbox form{
+    margin:auto;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .newsLetterbox input{
+    width:100%;
+  }
+  .newsLetterbox p{
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+}
+/*Music*/
+.firstvideo{
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin:auto;
+    margin-bottom:80px;
+    margin-top:50px;
+    justify-content:space-evenly;
+    font-size:40px;
+    padding-bottom:30px;
+    border-bottom: 10px solid white;
+}
+.firstvideo p{
+    margin:auto;
+    font-family: 'Playfair Display', serif;
+}
+
+.othervideos{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:91%;
+    justify-content: flex-start;
+    margin:auto;
+    margin-bottom:100px;
+}
+.othervideos iframe{
+    margin-bottom:20px;
+}
+#morevideos{
+  text-decoration: underline;
+  color:white;
+  font-size:20px;
+  text-align:center;
+  margin-bottom:80px;
+  font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 480px){
+  .firstvideo{
+    flex-direction:column;
+    margin-top:20%;
+  }
+  .firstvideo p{
+    margin:0%;
+  }
+  .othervideos{
+    flex-direction:column;
+  }
+
+  .firstvideo iframe{
+    width:350px;
+    height:215px;
+  }
+  .firstvideo p{
+    font-size:30px;
+  }
+  .othervideos iframe{
+    width:250px;
+    height:180px;
+  }
+  #morevideos{
+    margin-right:50%;
+  }
+}
+/*Store*/
+
+#storebody{
+    display:flex;
+    flex-direction:column;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("backgroundimg.jpg");
+  }
+  .products h1{
+    color:white;
+    font-size: 40px;
+    text-decoration-style: solid;
+    margin-bottom:80px;
+    margin-top:50px;
+    text-align:center;
+    font-family: 'Playball', cursive;
+    
+}
+.products h2{
+    color:white;
+    font-size: 40px;
+    margin-bottom:100px;
+    text-decoration-style: solid;
+    text-align:center;
+    font-family: 'Playball', cursive;   
+}
+
+.Merch{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    color:white;
+    margin:auto;
+    font-size:20px;
+}
+@media screen and (max-width: 480px)
+{
+  .Albums{
+    margin:auto;
+  }
+  .Merch{
+    margin:auto;
+  }
+  .Albums img{
+    width:250px;
+    height:250px;
+  }
+  .Merch img{
+    width:250px;
+    height:250px;
+  }
+}
+.Merch li{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:100px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+.Albums{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    font-size:20px;
+    color:white;
+    margin:auto;
+}
+.Albums li{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:100px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#moreproducts{
+  text-decoration: underline;
+  color:white;
+  font-size:20px;
+  text-align:center;
+  margin-bottom:80px;
+  font-family: 'Montserrat', sans-serif;
+}
+  
